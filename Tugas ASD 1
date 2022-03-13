@@ -1,0 +1,19 @@
+NIM = input('Masukkan NIM:')
+Gaji_Pokok = 1000000
+Gaji_Lembur = 5000*82
+Gaji_Kotor = Gaji_Pokok + Gaji_Lembur
+Pajak = 10/100
+Potongan = Gaji_Pokok - Pajak
+Gaji_Bersih = (Gaji_Pokok + Gaji_Lembur) - Potongan
+
+if NIM == 'D0221082':
+    print ('Nama : Hijrana (D0221082)')
+    print ('Gaji Pokok :',Gaji_Pokok)
+    print ('Gaji Lembur :',Gaji_Lembur)
+    print ('Gaji Kotor',Gaji_Kotor)
+    print ('Pajak :',Pajak)
+    print ('Potongan :',Potongan)
+    print ('Gaji Bersih',Gaji_Bersih)
+else:
+    print ('''Anda Salah Memasukkan NIM
+    Coba Periksa Kembali''')

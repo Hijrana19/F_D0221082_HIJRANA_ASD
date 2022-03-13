@@ -1,0 +1,30 @@
+#Tipe Data
+print ('Nama Saya Hijrana')
+print ('''Nama Saya Hijrana
+Prodi Teknik Informatika
+Fakultas Teknik''')
+
+print (3<5)
+print (5<3)
+
+Angkatan = 2021
+print (Angkatan)
+
+NilaiA = 4.2
+print (NilaiA)
+
+#Biodata Diri
+print('''Universitas Sulawesi Barat
+Fakultas Teknik''')
+
+NIM = input('Masukkan NIM:')
+if NIM == 'D0221082':
+    print ('Nama : Hijrana')
+    print ('NIM : D0221082')
+    print ('Prodi : Teknik Informatika F')
+    print ('Fakultas : Teknik')
+    print ('Angkatan : 2021')
+    print ('Alumni : SMAN 1 Campalagian')
+else:
+    print ('''NIM Yang Anda Masukkan Tidak Sesuai
+    Silahkan Periksa Kembali''')
